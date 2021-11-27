@@ -1,0 +1,68 @@
+body{
+  margin:0;
+  color:white;
+  font-family: sans-serif;
+  user-select: none;
+}
+h1{
+  margin-top: 0;
+  padding-top: 10px;
+margin-bottom:0;
+  color:#18AFC1;
+  font-size: 5rem;
+}
+h3{
+  color:#18AFC1;
+  font-size: 2rem;
+  padding:10px;
+  border-radius:20%;
+  margin:auto;
+
+}
+.game{
+   height:100vh;
+   width:100vw;
+   background-color: white;;
+   text-align: center;
+
+}
+.player1,.player2{
+  display: inline-block;
+  margin:5%;
+}
+.dice1,.dice2{
+  height:300px;
+  width:300px;
+  background-color: #18AFC1;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns:auto auto auto;
+
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine{
+  height:40px;
+  width:40px;
+   border-radius: 50%;
+  background-color: white;
+}
+.practice{
+  height:100px;width:100px;background-color: red;
+}
+.btn{
+  background-color:#18AFC1;
+  color:white;
+width:400px;
+border-radius: 20px;
+}
+.btn:hover{
+
+  btn-shadow: 0 0 11px rgba(33,33,33,.2);
+
+}
