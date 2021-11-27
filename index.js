@@ -87,7 +87,7 @@ player1=Math.floor(Math.random()*6)+1;
 player2=Math.floor(Math.random()*6)+1;
 if(player1===player2)
 {
-  document.querySelector("h1").innerHTML="Try again";
+  document.querySelector("h1").innerHTML="Draw";
 }
 else if(player1>player2)
 {
