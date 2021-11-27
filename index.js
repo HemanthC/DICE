@@ -91,10 +91,10 @@ if(player1===player2)
 }
 else if(player1>player2)
 {
- document.querySelector("h1").innerHTML="Congrats player 1!!!";
+ document.querySelector("h1").innerHTML="Congrats player 1";
 }
 else{
-  document.querySelector("h1").innerHTML="Congrats player 2!!!";
+  document.querySelector("h1").innerHTML="Congrats player 2";
 }
 if(player1===1)
 {
